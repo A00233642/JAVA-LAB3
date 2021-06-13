@@ -21,14 +21,11 @@ public class DiceGame {
 
 
 		System.out.println();
-		System.out.printf("The current side up for %s is %d\n",
-										die1.getType(),  die1.currentSide);
+		System.out.printf("The current side up for %s is %d\n",	die1.getType(), die1.currentSide);
 
-		System.out.printf("The current side up for %s is %d\n",
-				die2.getType(),  die2.currentSide);
+		System.out.printf("The current side up for %s is %d\n",die2.getType(), die2.currentSide);
 
-		System.out.printf("The current side up for percentile is %d\n",
-				  die3.currentSide);
+		System.out.printf("The current side up for percentile is %d\n", die3.currentSide);
 
 		System.out.println();
 		System.out.println("Testing the roll method");
